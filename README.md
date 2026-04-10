@@ -6,7 +6,8 @@ Uma solução moderna para monitoramento e análise do fluxo de passageiros em t
 
 ## 📌 Sobre o Projeto
 
-O COUNTBUS é uma plataforma que integra hardware e software para realizar a contagem automática de passageiros em tempo real. Sensores instalados no veículo capturam os dados e enviam para um servidor, onde podem ser visualizados através de uma interface web.
+O COUNTBUS é uma plataforma que integra hardware e software para realizar a contagem automática de passageiros em tempo real. Sensores instalados no veículo capturam os dados e enviam para um servidor, onde podem ser visualizados através de uma interface web. 
+<br/> Para mais informações, <a href="https://countbus.github.io"> acesse nossa página </a>.
 
 ---
 
