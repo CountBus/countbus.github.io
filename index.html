@@ -13,16 +13,20 @@
 
     <header id="header">
         <div class="container nav">
-            <a href="#" class="logo">
-                <i class="fas fa-bus"></i>
-                <span>Count<span>Bus</span></span>
-            </a>
-            <ul class="nav-links">
-                <li><a href="#home">Início</a></li>
-                <li><a href="#features">Recursos</a></li>
-                <li><a href="#about">Sobre Nós</a></li>
-                <li><a href="#contact">Contato</a></li>
-            </ul>
+            <div style="display: flex; align-items: center; gap: 3rem;">
+                <a href="#" class="logo">
+                    <img src="assets/my_imgs/Logos/logo_countbus.png" alt="CountBus Logo" class="brand-logo">
+                </a>
+                <ul class="nav-links">
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#features">Recursos</a></li>
+                    <li><a href="#about">Sobre Nós</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+                <button id="theme-toggle" class="theme-toggle" aria-label="Toggle Theme">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
         </div>
     </header>
 
@@ -39,7 +43,7 @@
             <p>Capacitando organizações com dados de passageiros em tempo real, análises baseadas em IA e soluções integradas de gestão de frota para otimizar cada viagem.</p>
             <div class="hero-btns">
                 <a href="#features" class="btn">Saiba Mais</a>
-                <a href="#contact" class="btn glass" style="margin-left: 1rem; background: var(--glass-bg); color: #fff;">Entre em Contato</a>
+                <a href="#contact" class="btn glass" style="margin-left: 1rem;">Entre em Contato</a>
             </div>
         </div>
     </section>
@@ -68,26 +72,126 @@
         </div>
     </section>
 
-    <section id="about" style="background: var(--darker-bg);">
+    <section id="about" style="padding-bottom: 40px;">
         <div class="container about-content">
             <div class="about-text">
                 <h2>Sobre o CountBus</h2>
                 <p>O CountBus é um projeto inovador focado em transformar a mobilidade urbana através da tecnologia. Nossa missão é fornecer ferramentas robustas para que organizações possam gerenciar seu transporte de forma inteligente.</p>
                 <br>
                 <p>Com o uso de inteligência artificial e análise de dados, buscamos não apenas contar pessoas, mas entender padrões que permitam um transporte mais eficiente, econômico e confortável para todos.</p>
-                <br>
-                <a href="#contact" class="btn">Conheça a Equipe</a>
             </div>
-            <div class="about-image"></div>
+            <div class="about-image" style="background-image: url('assets/images/smart_transport_concept.png');"></div>
         </div>
     </section>
+
+
+    <section id="events" style="padding-top: 20px; padding-bottom: 20px;">
+        <div class="container">
+            <div style="text-align: center; margin-bottom: 3rem;">
+                <h2>Nossa Trajetória</h2>
+                <p style="color: var(--text-muted);">Momentos marcantes e reconhecimentos que validam nossa inovação.</p>
+            </div>
+            
+            <!-- Event 1: MVP Config -->
+            <div class="event-block">
+                <div class="event-text">
+                    <div class="medal-tag">
+                        <i class="fas fa-trophy"></i> 1º Lugar
+                    </div>
+                    <h3>MVP Config 2025</h3>
+                    <p>Tivemos a honra de conquistar o <strong>primeiro lugar</strong> no MVP Config 2025! Apresentamos o CountBus para líderes do setor e recebemos o reconhecimento máximo pela nossa tecnologia inovadora.</p>
+                    <br>
+                    <p>Este prêmio valida nosso compromisso em transformar a mobilidade urbana através de dados precisos e inteligência artificial de ponta.</p>
+                </div>
+                <div class="event-gallery">
+                    <img src="assets/my_imgs/Eventos/mvp_config_2025.png" alt="Apresentação no evento">
+                    <img src="assets/my_imgs/Eventos/mvp_config_2025_champions.png" alt="Campeões do MVP Config 2025">
+                </div>
+            </div>
+
+            <!-- Event 2: Startup Day -->
+            <div class="event-block reverse">
+                <div class="event-text">
+                    <h3>Startup Day</h3>
+                    <p>No Startup Day, mergulhamos no coração do ecossistema de inovação. Realizamos um pitch impactante para investidores e especialistas, demonstrando como o CountBus resolve problemas reais de transporte.</p>
+                    <br>
+                    <p>A experiência foi enriquecedora, permitindo conexões valiosas e validando nossa visão de escala para o mercado nacional.</p>
+                </div>
+                <div class="event-gallery">
+                    <img src="assets/my_imgs/Eventos/StartupDay.jpg" alt="Equipe no Startup Day">
+                    <img src="assets/my_imgs/Eventos/StartupDay_pitch.jpg" alt="Pitch para investidores">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="process" style="background: var(--bg-alt); padding-top: 40px;">
+        <div class="container process-content">
+            <div style="text-align: center; margin-bottom: 3rem;">
+                <h2>Como Funciona</h2>
+            </div>
+            <img src="assets/my_imgs/esquema.png" alt="Esquema de Funcionamento CountBus" class="process-image">
+            <p style="max-width: 800px; margin: 2rem auto; color: var(--text-muted);">
+                Nosso sistema utiliza visão computacional avançada para identificar o embarque e desembarque de passageiros, enviando dados em tempo real para nossa plataforma de análise em nuvem.
+            </p>
+        </div>
+    </section>
+
+    <section id="team" class="container" style="margin-bottom: 6rem;">
+        <div style="text-align: center; margin-bottom: 3rem;">
+            <h2>Nossa Equipe</h2>
+        </div>
+        <div class="team-grid">
+            <div class="team-card glass">
+                <div class="team-img-wrapper">
+                    <img src="assets/my_imgs/Integrantes/Bruno.png" alt="Bruno Lima">
+                </div>
+                <h3>Bruno Lima</h3>
+                <p style="color: var(--text-muted); display: flex; align-items: center; justify-content: center; gap: 0.8rem;">
+                    <a href="https://www.linkedin.com/in/bruno-lima-66b73618b/" target="_blank" class="linkedin-link"><i class="fab fa-linkedin"></i></a>
+                    Desenvolvedor
+                </p>
+            </div>
+            <div class="team-card glass">
+                <div class="team-img-wrapper">
+                    <img src="assets/my_imgs/Integrantes/GuiB.png" alt="Guilherme B.">
+                </div>
+                <h3>Guilherme B.</h3>
+                <p style="color: var(--text-muted); display: flex; align-items: center; justify-content: center; gap: 0.8rem;">
+                    <a href="https://www.linkedin.com/in/guilherme-b-b3905229b/" target="_blank" class="linkedin-link"><i class="fab fa-linkedin"></i></a>
+                    Desenvolvedor
+                </p>
+            </div>
+            <div class="team-card glass">
+                <div class="team-img-wrapper">
+                    <img src="assets/my_imgs/Integrantes/GuiF.png" alt="Guilherme Francini">
+                </div>
+                <h3>Guilherme Francini</h3>
+                <p style="color: var(--text-muted); display: flex; align-items: center; justify-content: center; gap: 0.8rem;">
+                    <a href="https://www.linkedin.com/in/guilherme-francini-21sss/" target="_blank" class="linkedin-link"><i class="fab fa-linkedin"></i></a>
+                    Desenvolvedor
+                </p>
+            </div>
+            <div class="team-card glass">
+                <div class="team-img-wrapper">
+                    <img src="assets/my_imgs/Integrantes/Samuel.png" alt="Samuel Santos">
+                </div>
+                <h3>Samuel Santos</h3>
+                <p style="color: var(--text-muted); display: flex; align-items: center; justify-content: center; gap: 0.8rem;">
+                    <a href="https://www.linkedin.com/in/samuel-r-dos-santos-b9a163161/" target="_blank" class="linkedin-link"><i class="fab fa-linkedin"></i></a>
+                    Desenvolvedor
+                </p>
+            </div>
+        </div>
+    </section>
+
 
     <section id="contact" class="container">
         <div style="text-align: center; margin-bottom: 4rem;">
             <h2>Entre em Contato</h2>
             <p style="color: var(--text-muted);">Seja nosso parceiro na construção do futuro da mobilidade urbana.</p>
         </div>
-        <div class="contact-container">
+           <div class="contact-container" style="margin-bottom: 4rem;">
             <a href="https://wa.me/5511917652794" class="contact-item glass">
                 <i class="fab fa-whatsapp"></i>
                 <h3>WhatsApp</h3>
@@ -106,14 +210,22 @@
         </div>
     </section>
 
+
     <footer>
         <div class="container footer-content">
             <div class="footer-info">
                 <a href="#" class="logo">
-                    <i class="fas fa-bus"></i>
-                    <span>Count<span>Bus</span></span>
+                    <img src="assets/my_imgs/Logos/logo_countbus.png" alt="CountBus Logo" style="height: 40px; width: auto; border-radius: 6px;">
                 </a>
                 <p>Liderando o caminho na tecnologia de transporte inteligente. Fornecemos às organizações as ferramentas necessárias para otimizar a eficiência.</p>
+                <div class="footer-apoios">
+                    <p style="font-size: 0.7rem; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 0.5rem; opacity: 0.6;">Apoiado por</p>
+                    <div class="footer-apoios-grid">
+                        <img src="assets/my_imgs/Apoios/fatec.png" alt="Fatec">
+                        <img src="assets/my_imgs/Apoios/prefeitura.png" alt="Prefeitura">
+                        <img src="assets/my_imgs/Apoios/semedes.png" alt="Semedes">
+                    </div>
+                </div>
             </div>
             <div class="footer-links">
                 <h4>Links Rápidos</h4>
