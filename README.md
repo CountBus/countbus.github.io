@@ -1,4 +1,4 @@
-# 🚍 COUNTBUS – Sistema Inteligente de Contagem de Passageiros
+## 🚍 CountBus - Sistema Inteligente de Contagem de Passageiros
 
 Uma solução moderna para monitoramento e análise do fluxo de passageiros em transportes públicos e privados.
 
