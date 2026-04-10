@@ -39,18 +39,12 @@ O COUNTBUS é uma plataforma que integra hardware e software para realizar a con
 - Java (OpenJDK)  
 - Spring Boot  
 - MariaDB  
-- JDBC  
+- JDBC/JPA
 
 ### 🌐 Frontend
 - React.js  
-- Tailwind CSS / Bootstrap  
-- HTML5 & CSS3  
-
-### 🔗 Integrações
-- API REST  
-- Twilio (WhatsApp)  
-- SendGrid (E-mail)  
-- APIs de pagamento  
+- HTML5 & CSS3
+- JavaScript
 
 ---
 
@@ -82,7 +76,3 @@ A landing page foi desenvolvida com foco em:
 - Design moderno e responsivo  
 - Conversão de usuários  
 - Explicação simples do funcionamento  
-
----
-
-## 📦 Estrutura do Projeto
