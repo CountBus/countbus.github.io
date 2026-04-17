@@ -57,36 +57,36 @@ h1, h2, h3 {
 }
 
 /* Layout */
-.container {
+/* .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 15px 2rem 0 2rem;
-}
+} */
 
-.pt-0 {
+/* .pt-0 {
     padding-top: 0 !important;
-}
+} */
 
-section {
+/* section {
     padding: 100px 0;
-}
+} */
 
 /* Header */
-header {
+/* header {
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 1000;
     padding: 1rem 0;
     transition: var(--transition);
-}
+} */
 
-header.scrolled {
+/* header.scrolled {
     background: var(--header-bg);
     backdrop-filter: blur(10px);
     padding: 0.8rem 0;
     border-bottom: 1px solid var(--glass-border);
-}
+} */
 
 nav {
     display: flex;
@@ -127,7 +127,8 @@ header.scrolled .brand-logo {
     height: 55px;
 }
 
-.nav-links {
+
+.nav-links { 
     display: flex;
     gap: 2rem;
     list-style: none;
@@ -195,11 +196,11 @@ header.scrolled .brand-logo {
     padding-bottom: 50px;
 }
 
-.carousel-inner {
+/* .carousel-inner {
     width: 100%;
     height: 100%;
     position: relative;
-}
+} */
 
 .carousel-item {
     position: absolute;
@@ -231,18 +232,18 @@ header.scrolled .brand-logo {
     background: var(--hero-overlay);
 }
 
-.hero-content {
+/* .hero-content {
     max-width: 850px;
-}
+} */
 
-.hero h1 {
+/* .hero h1 {
     font-size: 4rem;
     margin-bottom: 1.5rem;
     background: linear-gradient(to right, var(--text-main), var(--primary-blue));
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
-}
+} */
 
 .hero p {
     font-size: 1.2rem;
@@ -656,13 +657,13 @@ footer {
         grid-template-columns: 1fr;
     }
     
-    .nav-links {
+    /* .nav-links {
         display: none;
-    }
+    } */
     
-    .container {
+    /* .container {
         padding: 0 1.5rem;
-    }
+    } */
 }
 
 
@@ -722,14 +723,14 @@ footer {
             line-height: 1.2;
         }
 
-        .container {
+        /* .container {
             max-width: 1200px;
             margin: 0 auto;
             padding: 0 2rem;
-        }
+        } */
 
         /* --- Header --- */
-        header {
+        /* header {
             padding: 1.5rem 0;
             position: fixed;
             top: 0;
@@ -738,24 +739,24 @@ footer {
             background: rgba(11, 17, 32, 0.8);
             backdrop-filter: blur(12px);
             border-bottom: 1px solid var(--border-color);
-        }
+        } */
 
-        .header-content {
+        /* .header-content {
             display: flex;
             justify-content: space-between;
             align-items: center;
-        }
+        } */
 
-        .logo {
+        /* .logo {
             display: flex;
             align-items: center;
             gap: 1rem;
-        }
+        } */
 
-        .logo img {
+        /* .logo img {
             height: 40px;
             object-fit: contain;
-        }
+        } */
 
         .btn {
             display: inline-block;
@@ -792,13 +793,13 @@ footer {
         }
 
         /* --- Hero Section --- */
-        .hero {
+        /* .hero {
             padding: 12rem 0 6rem;
             text-align: center;
             position: relative;
-        }
+        } */
 
-        .hero::after {
+        /* .hero::after {
             content: '';
             position: absolute;
             top: -50%;
@@ -809,9 +810,9 @@ footer {
             background: radial-gradient(circle, rgba(59, 130, 246, 0.2) 0%, transparent 60%);
             z-index: -1;
             pointer-events: none;
-        }
+        } */
 
-        .tagline {
+        /* .tagline {
             display: inline-block;
             padding: 0.5rem 1rem;
             background: rgba(255, 255, 255, 0.05);
@@ -824,69 +825,72 @@ footer {
             letter-spacing: 1px;
             text-transform: uppercase;
             font-weight: 600;
-        }
+        } */
 
-        .hero h1 {
+        /* .hero h1 {
             font-size: 4.5rem;
             margin-bottom: 1.5rem;
             background: linear-gradient(to right, #fff, #94a3b8);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
-        }
+        } */
 
-        .hero p.lead {
+        /* .hero p.lead {
             font-size: 1.5rem;
             color: var(--text-muted);
             max-width: 700px;
             margin: 0 auto 2.5rem;
             font-weight: 300;
-        }
+        } */
 
-        .hero .highlight {
+        /* .hero .highlight {
             font-size: 1.8rem;
             color: white;
             font-weight: 600;
             display: block;
             margin-bottom: 3rem;
-        }
+        } */
 
         /* --- Problem & Solution Section --- */
-        .section {
+        /* .section {
             padding: 6rem 0;
-        }
+        } */
 
-        .section-header {
+        /* .section-header {
             text-align: center;
             margin-bottom: 4rem;
-        }
+        } */
 
-        .section-header h2 {
+        /* .section-header h2 {
             font-size: 3rem;
             margin-bottom: 1rem;
-        }
+        } */
 
-        .section-header p {
+        /* .section-header p {
             font-size: 1.2rem;
             color: var(--text-muted);
             max-width: 600px;
             margin: 0 auto;
-        }
+        } */
 
-        .problem-solution-grid {
+        /* .problem-solution-grid {
             display: grid;
             grid-template-columns: 1fr 1fr;
             gap: 4rem;
-            align-items: center;
-        }
+            align-items: stretch;
+        } */
 
-        .problem-box {
+        /* .problem-box {
             background: linear-gradient(145deg, rgba(239, 68, 68, 0.1), rgba(239, 68, 68, 0.02));
             border: 1px solid rgba(239, 68, 68, 0.2);
             padding: 3rem;
             border-radius: 24px;
-        }
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        } */
 
-        .problem-box h3 {
+        /* .problem-box h3 {
             color: #fca5a5;
             font-size: 1.8rem;
             margin-bottom: 1.5rem;
@@ -910,16 +914,19 @@ footer {
             left: 0;
             top: 2px;
             font-size: 1.2rem;
-        }
+        } */
 
-        .solution-box {
+        /* .solution-box {
             background: linear-gradient(145deg, rgba(16, 185, 129, 0.1), rgba(16, 185, 129, 0.02));
             border: 1px solid rgba(16, 185, 129, 0.2);
             padding: 3rem;
             border-radius: 24px;
-        }
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        } */
 
-        .solution-box h3 {
+        /* .solution-box h3 {
             color: #6ee7b7;
             font-size: 1.8rem;
             margin-bottom: 1.5rem;
@@ -928,7 +935,7 @@ footer {
         .solution-box p {
             font-size: 1.2rem;
             margin-bottom: 1rem;
-        }
+        } */
 
         /* --- Cards / Benefits --- */
         .benefits-section {
@@ -1165,22 +1172,22 @@ footer {
     border-bottom: 1px solid #1e2530;
   }
 
-  .hero::before {
+  /* .hero::before {
     content: '';
     position: absolute;
     top: 0; left: 0; right: 0; bottom: 0;
     background: radial-gradient(ellipse at 80% 20%, rgba(0, 90, 200, 0.18) 0%, transparent 60%);
     pointer-events: none;
-  }
+  } */
 
-  .logo-row {
+  /* .logo-row {
     display: flex;
     align-items: center;
     gap: 14px;
     margin-bottom: 36px;
-  }
+  } */
 
-  .logo-mark {
+  /* .logo-mark {
     width: 44px;
     height: 44px;
     background: linear-gradient(135deg, #1560c8, #0a3a80);
@@ -1188,55 +1195,55 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-  }
+  } */
 
-  .logo-name {
+  /* .logo-name {
     font-family: 'Bebas Neue', sans-serif;
     font-size: 28px;
     letter-spacing: 2px;
     color: #e8eaf0;
-  }
+  } */
 
-  .logo-name span {
+  /* .logo-name span {
     color: #3a8eff;
-  }
+  } */
 
-  .hero-eyebrow {
+  /* .hero-eyebrow {
     font-size: 11px;
     font-weight: 500;
     letter-spacing: 3px;
     text-transform: uppercase;
     color: #3a8eff;
     margin-bottom: 16px;
-  }
+  } */
 
-  .hero-headline {
+  /* .hero-headline {
     font-family: 'Bebas Neue', sans-serif;
     font-size: 56px;
     line-height: 1.0;
     letter-spacing: 1px;
     color: #ffffff;
     margin-bottom: 20px;
-  }
+  } */
 
   .hero-headline .accent {
     color: #3a8eff;
   }
 
-  .hero-sub {
+  /* .hero-sub {
     font-size: 16px;
     font-weight: 300;
     color: #8b95a8;
     line-height: 1.6;
     max-width: 460px;
     margin-bottom: 32px;
-  }
+  } */
 
-  .hero-cta-row {
+  /* .hero-cta-row {
     display: flex;
     align-items: center;
     gap: 24px;
-  }
+  } */
 
   .cta-badge {
     background: #3a8eff;
@@ -1248,11 +1255,11 @@ footer {
     letter-spacing: 0.5px;
   }
 
-  .cta-tagline {
+  /* .cta-tagline {
     font-size: 13px;
     color: #556070;
     font-style: italic;
-  }
+  } */
 
   .divider-bar {
     height: 4px;
@@ -1322,22 +1329,22 @@ footer {
     line-height: 1.5;
   }
 
-  .section-problem {
+  /* .section-problem {
     padding: 40px 48px;
     background: #0d1117;
     border-top: 1px solid #1e2530;
-  }
+  } */
 
-  .problem-body {
+  /* .problem-body {
     font-size: 18px;
     font-weight: 300;
     color: #c4cad8;
     line-height: 1.7;
     max-width: 540px;
     margin-bottom: 28px;
-  }
+  } */
 
-  .problem-body strong {
+  /* .problem-body strong {
     color: #ffffff;
     font-weight: 500;
   }
@@ -1365,7 +1372,7 @@ footer {
     background: #3a8eff;
     margin-top: 6px;
     flex-shrink: 0;
-  }
+  } */
 
   .section-benefits {
     padding: 40px 48px;
@@ -1774,11 +1781,11 @@ footer {
             border-bottom: 1px solid var(--border-color);
         }
 
-        .header-content {
+        /* .header-content {
             display: flex;
             justify-content: space-between;
             align-items: center;
-        }
+        } */
 
         .logo {
             display: flex;
@@ -1826,13 +1833,13 @@ footer {
         }
 
         /* --- Hero Section --- */
-        .hero {
+        /* .hero {
             padding: 12rem 0 6rem;
             text-align: center;
             position: relative;
-        }
+        } */
 
-        .hero::after {
+        /* .hero::after {
             content: '';
             position: absolute;
             top: -50%;
@@ -1843,7 +1850,7 @@ footer {
             background: radial-gradient(circle, rgba(59, 130, 246, 0.2) 0%, transparent 60%);
             z-index: -1;
             pointer-events: none;
-        }
+        } */
 
         .tagline {
             display: inline-block;
@@ -1868,21 +1875,21 @@ footer {
             -webkit-text-fill-color: transparent;
         }
 
-        .hero p.lead {
+        /* .hero p.lead {
             font-size: 1.5rem;
             color: var(--text-muted);
             max-width: 700px;
             margin: 0 auto 2.5rem;
             font-weight: 300;
-        }
+        } */
 
-        .hero .highlight {
+        /* .hero .highlight {
             font-size: 1.8rem;
             color: white;
             font-weight: 600;
             display: block;
             margin-bottom: 3rem;
-        }
+        } */
 
         /* --- Problem & Solution Section --- */
         .section {
@@ -1910,7 +1917,7 @@ footer {
             display: grid;
             grid-template-columns: 1fr 1fr;
             gap: 4rem;
-            align-items: center;
+            align-items: stretch;
         }
 
         .problem-box {
@@ -1918,6 +1925,9 @@ footer {
             border: 1px solid rgba(239, 68, 68, 0.2);
             padding: 3rem;
             border-radius: 24px;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
         }
 
         .problem-box h3 {
@@ -1926,6 +1936,7 @@ footer {
             margin-bottom: 1.5rem;
         }
 
+        /* VER DEPOIS */
         .problem-list {
             list-style: none;
         }
@@ -1946,9 +1957,9 @@ footer {
             font-size: 1.2rem;
         }
 
-        .solution-list {
+        /* .solution-list {
             list-style: none;
-        }
+        } */
 
         .solution-list li {
             position: relative;
@@ -1971,6 +1982,9 @@ footer {
             border: 1px solid rgba(16, 185, 129, 0.2);
             padding: 3rem;
             border-radius: 24px;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
         }
 
         .solution-box h3 {
