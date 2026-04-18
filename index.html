@@ -11,7 +11,7 @@
 </head>
 <body>
 
-    <!-- OK Header -->
+    <!-- Header -->
     <header id="header">
         <div class="container nav">
             <div class="nav-row">
@@ -20,9 +20,10 @@
                 </a>
                 <ul class="nav-links">
                     <li><a href="#home">Início</a></li>
-                    <li><a href="#features">Recursos</a></li>
-                    <li><a href="#about">Sobre Nós</a></li>
-                    <li><a href="#contact">Contato</a></li>
+                    <li><a href="#beneficios">Soluções</a></li>
+                    <li><a href="#events">Sobre nós</a></li>
+                    <li><a href="#process">Funcionamento</a></li>
+                    <li><a href="#team">Contato</a></li>
                 </ul>
                 <button id="theme-toggle" class="theme-toggle" aria-label="Toggle Theme">
                     <i class="fas fa-moon"></i>
@@ -31,7 +32,8 @@
         </div>
     </header>
 
-    <!-- OK Carousel Hero -->
+
+    <!-- Carousel Hero -->
     <section id="home" class="hero">
         <div class="carousel">
             <div class="carousel-inner">
@@ -53,7 +55,8 @@
         </div>
     </section>
 
-    <!-- OK Desafios & Soluções -->
+
+    <!-- Desafios & Soluções -->
     <section class="section">
         <div class="container pt-0">
             <div class="section-header">
@@ -257,8 +260,9 @@
         </div>
     </section>
 
+
     <!-- Sobre Nós -->
-    <section id="about" style="padding-bottom: 40px;">
+    <section id="about" style="padding: 40px 0px 0px 0px;">
         <div class="container about-content">
             <div class="about-text">
                 <span class="tagline">Nossa Trajetória</span>
@@ -273,12 +277,26 @@
     </section>
 
 
+    <!-- Vídeo Demonstrativo -->
+    <section id="project-video" class="section video-section-refined">
+        <div class="container text-center">
+            <span class="tagline">Vídeo Explicativo</span>
+            <div class="video-container glass">
+                <video controls poster="assets/videos/video_thumb2.png">
+                    <source src="assets/videos/CountBus_video_v1.mp4" type="video/mp4">
+                    Seu navegador não suporta vídeos.
+                </video>
+            </div>
+        </div>
+    </section>
+
+
     <!-- Trajetória - Eventos Participados -->
     <section id="events" style="padding-top: 20px; padding-bottom: 20px;">
         <div class="container">
             <div style="text-align: center; margin-bottom: 1.5rem;">
                 <!-- <h2>Nossa Trajetória</h2> -->
-                <p style="color: var(--text-muted); font-size: 1.2rem;">Momentos marcantes e reconhecimentos que validam nossa inovação.</p>
+                <p style="color: var(--text-muted); font-size: 1.3rem; padding-top: 20px;">Momentos marcantes e reconhecimentos que validam nossa inovação.</p>
             </div>
             
             <!-- Event 1: MVP Config -->
@@ -317,11 +335,10 @@
 
     <!-- Como funciona -->
     <section id="process" class="section-how section-how-alt">
-        <!-- <div class="section-label-alt">Como funciona — em 4 etapas</div> -->
-        <span class="tagline" style="margin-left: 30px;">Como funciona</span>
-        
-        <div class="container how-container box-expanded">
+        <div class="container">
+            <div class="how-container">
                 <div class="how-left-side">
+                    <span class="tagline">Como funciona</span>
                     <p class="how-description">
                         Nosso sistema utiliza visão computacional avançada para identificar o embarque e desembarque de passageiros, enviando dados em tempo real para nossa plataforma de análise em nuvem.
                     </p>
@@ -352,11 +369,12 @@
                     </div>
                 </div>
             </div>
+        </div>
     </section>
 
 
     <!-- Nossa Equipe -->
-    <section id="team" class="container">
+    <section id="team" class="time-container">
         <div class="team-header">
             <h2>Nossa Equipe</h2>
         </div>
@@ -476,7 +494,6 @@
         </div>
     </div>
     <p class="copyright-notice">© 2026 CountBus. Transforme passageiros em estratégia.</p>
-
 
     <script src="script.js"></script>
 </body>
