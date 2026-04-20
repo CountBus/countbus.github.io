@@ -1,3 +1,10 @@
+const menuToggle = document.querySelector(".menu-toggle");
+const navLinks = document.querySelector(".nav-links");
+
+menuToggle.addEventListener("click", () => {
+    navLinks.classList.toggle("active");
+});
+
 document.addEventListener('DOMContentLoaded', () => {
     // Header Scroll Effect
     const header = document.getElementById('header');
@@ -32,6 +39,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     top: target.offsetTop - 70, // Adjust for fixed header
                     behavior: 'smooth'
                 });
+                navLinks.classList.toggle("active");
             }
         });
     });
